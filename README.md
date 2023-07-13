@@ -21,7 +21,6 @@ terraform {
   }
 }
 provider "yandex" {
-  token = var.yc_iam_token
   cloud_id = "b1gneo9mi2c02taf7erq"
   folder_id = "b1gneo9mi2c02taf7erq"
   zone = "ru-central1-b"
